@@ -15,6 +15,30 @@ This project is a simple **Registration and Login System** built using **JSP**, 
 - **Database:** MySQL
 - **Server:** Apache Tomcat
 
+## File Structure
+
+📦 RegistrationSERVLETJSP
+ ┣ 📂 src
+ ┃ ┣ 📂 main
+ ┃ ┃ ┣ 📂 java
+ ┃ ┃ ┃ ┗ 📂 in.sp.backend
+ ┃ ┃ ┃ ┃ ┣ 📄 Login.java
+ ┃ ┃ ┃ ┃ ┣ 📄 Logout.java
+ ┃ ┃ ┃ ┃ ┗ 📄 Register.java
+ ┃ ┃ ┗ 📂 webapp
+ ┃ ┃ ┃ ┣ 📂 META-INF
+ ┃ ┃ ┃ ┣ 📂 WEB-INF
+ ┃ ┃ ┃ ┃ ┗ 📂 lib
+ ┃ ┃ ┃ ┃ ┃ ┗ 📄 mysql-connector.jar
+ ┃ ┃ ┃ ┣ 📄 login.jsp
+ ┃ ┃ ┃ ┣ 📄 register.jsp
+ ┃ ┃ ┃ ┗ 📄 welcome.jsp
+ ┣ 📂 Libraries
+ ┣ 📂 Referenced Libraries
+ ┣ 📂 build
+ ┗ 📄 Deployment Descriptor: web.xml
+
+
 ## 💾 Database Setup
 1. Install MySQL and create a database:
    ```sql
