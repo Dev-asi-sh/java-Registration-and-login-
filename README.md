@@ -17,26 +17,22 @@ This project is a simple **Registration and Login System** built using **JSP**, 
 
 ## File Structure
 
-📦 RegistrationSERVLETJSP
- ┣ 📂 src
- ┃ ┣ 📂 main
- ┃ ┃ ┣ 📂 java
- ┃ ┃ ┃ ┗ 📂 in.sp.backend
- ┃ ┃ ┃ ┃ ┣ 📄 Login.java
- ┃ ┃ ┃ ┃ ┣ 📄 Logout.java
- ┃ ┃ ┃ ┃ ┗ 📄 Register.java
- ┃ ┃ ┗ 📂 webapp
- ┃ ┃ ┃ ┣ 📂 META-INF
- ┃ ┃ ┃ ┣ 📂 WEB-INF
- ┃ ┃ ┃ ┃ ┗ 📂 lib
- ┃ ┃ ┃ ┃ ┃ ┗ 📄 mysql-connector.jar
- ┃ ┃ ┃ ┣ 📄 login.jsp
- ┃ ┃ ┃ ┣ 📄 register.jsp
- ┃ ┃ ┃ ┗ 📄 welcome.jsp
- ┣ 📂 Libraries
- ┣ 📂 Referenced Libraries
- ┣ 📂 build
- ┗ 📄 Deployment Descriptor: web.xml
+RegistrationSERVLETJSP/
+├── src/main/java/in/sp/backend/
+│   ├── Login.java
+│   ├── Logout.java
+│   └── Register.java
+├── src/main/webapp/
+│   ├── META-INF/
+│   ├── WEB-INF/lib/mysql-connector.jar
+│   ├── login.jsp
+│   ├── register.jsp
+│   └── welcome.jsp
+├── Libraries/
+├── Referenced Libraries/
+├── build/
+└── web.xml
+
 
 
 ## 💾 Database Setup
